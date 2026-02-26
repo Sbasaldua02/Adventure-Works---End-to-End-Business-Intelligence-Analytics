@@ -1,4 +1,4 @@
-# 🚴‍♂️ Adventure Works - End-to-End Business Intelligence Analytics
+# Adventure Works - End-to-End Business Intelligence Analytics
 
 ## Resumen del Proyecto
 Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure Works*, una empresa global de equipamiento deportivo ficticia. Este proyecto abarca el ciclo de vida completo de los datos: desde la extracción y limpieza profunda (ETL) de archivos `.csv` crudos, pasando por un modelado relacional complejo (Star/Snowflake) y cálculos DAX avanzados, hasta el diseño de una interfaz optimizada con herramientas de Inteligencia Artificial y diseño responsivo para dispositivos móviles.
@@ -8,10 +8,10 @@ Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure W
 ## Demos Interactivas del Tablero
 *Hacé clic en los enlaces a continuación para ver las grabaciones de la interacción real con el reporte:*
 
-1. 📊 **[Exac_Dash_Video](https://github.com/user-attachments/assets/54854e68-84dc-4230-99fa-3e704faed425):** Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
-2. 🔍 **[Product_Dashboard_Video](https://github.com/user-attachments/assets/ebb7b48b-0416-4f70-b7e4-e6160d550f7f):** Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
-3. 🌍 **[Map_Dashboard_Video](https://github.com/user-attachments/assets/464c9561-5a5a-4da6-b64d-4bedf2b7e0d3)** Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
-4. 👥 **[Client_Dashboard_Video](https://github.com/user-attachments/assets/d473d860-fd6c-4b97-bdc9-93dcfc7a235b)** Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
+1. **[Exac_Dash_Video](https://github.com/user-attachments/assets/54854e68-84dc-4230-99fa-3e704faed425):** Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
+2. **[Product_Dashboard_Video](https://github.com/user-attachments/assets/ebb7b48b-0416-4f70-b7e4-e6160d550f7f):** Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
+3. **[Map_Dashboard_Video](https://github.com/user-attachments/assets/464c9561-5a5a-4da6-b64d-4bedf2b7e0d3)** Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
+4. **[Client_Dashboard_Video](https://github.com/user-attachments/assets/d473d860-fd6c-4b97-bdc9-93dcfc7a235b)** Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
 
 ---
 
