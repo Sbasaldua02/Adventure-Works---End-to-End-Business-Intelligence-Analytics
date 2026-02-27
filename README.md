@@ -121,5 +121,9 @@ Lo que realmente me sorprendió de este proyecto fue todo lo que se puede hacer 
 
 En resumen, me llevo una muy buena experiencia con Power BI. Me pareció una herramienta súper práctica para tener todo el proceso centralizado —desde el dato crudo hasta el tablero final— y es un conocimiento que me entusiasma sumar a mi perfil técnico para seguir creciendo.
 
+### Certificado:
+
+<img width="1165" height="807" alt="Certificado" src="https://github.com/user-attachments/assets/05ac74a8-0383-4d13-af9f-2c9646cf1143" />
+
 ---
 
