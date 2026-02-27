@@ -8,6 +8,7 @@ Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure W
 
 ## Demos Interactivas del Tablero
 *En esta sección pueden observar demostraciones de las diferentes interacciones en el reporte:*
+
 1.
 **![Executive_Dash_Video](https://github.com/user-attachments/assets/6b2968bc-4f03-493c-a9c4-1eadb6921cd0)** 
 
