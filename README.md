@@ -98,6 +98,7 @@ La capa de visualización se construyó priorizando el descubrimiento interactiv
   <img width="1297" height="731" alt="image" src="https://github.com/user-attachments/assets/4e932aa3-81fb-4c8a-a9d2-c3d512ded394" />
   
 * **Tooltips Personalizados:** Creación de páginas de reporte ocultas con dimensiones específicas para actuar como tooltips ricos en datos al pasar el cursor sobre gráficos de barras.
+  
   <img width="522" height="277" alt="image" src="https://github.com/user-attachments/assets/a0517c6d-a8dc-4ec0-ae6b-681c41bdf92d" />
 
 * **Mobile Layout:** Tablero completamente formateado y optimizado para su consumo en dispositivos móviles.
