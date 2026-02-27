@@ -1,4 +1,4 @@
-# Adventure Works - End-to-End Business Intelligence Analytics
+![Map_Dash_Video](https://github.com/user-attachments/assets/cbe56fe9-1e81-4e3e-926c-ef2d3e4ccc9b)# Adventure Works - End-to-End Business Intelligence Analytics
 
 ## Resumen del Proyecto
 Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure Works*, una empresa global de equipamiento deportivo ficticia. Este proyecto abarca el ciclo de vida completo de los datos: desde la extracción y limpieza profunda (ETL) de archivos `.csv` crudos, pasando por un modelado relacional complejo (Star/Snowflake) y cálculos DAX avanzados, hasta el diseño de una interfaz optimizada con herramientas de Inteligencia Artificial y diseño responsivo para dispositivos móviles.
@@ -6,19 +6,19 @@ Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure W
 ---
 
 ## Demos Interactivas del Tablero
-*Hacé clic en los enlaces a continuación para ver las grabaciones de la interacción real con el reporte:*
+*Hacé click en los enlaces a continuación para ver las grabaciones de la interacción real con el reporte:*
 
-1. **[Exac_Dash_Video](https://github.com/user-attachments/assets/54854e68-84dc-4230-99fa-3e704faed425):** Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
-2. **[Product_Dashboard_Video](https://github.com/user-attachments/assets/ebb7b48b-0416-4f70-b7e4-e6160d550f7f):** Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
-3. **[Map_Dashboard_Video](https://github.com/user-attachments/assets/464c9561-5a5a-4da6-b64d-4bedf2b7e0d3)** Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
-4. **[Client_Dashboard_Video](https://github.com/user-attachments/assets/d473d860-fd6c-4b97-bdc9-93dcfc7a235b)** Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
+1. **[Executive_Dash_Video](https://github.com/user-attachments/assets/6b2968bc-4f03-493c-a9c4-1eadb6921cd0):** Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
+2. **[Product_Dash_Video](https://github.com/user-attachments/assets/7cc56da9-f756-4844-8366-1b5503106ce9):** Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
+3. **[Map_Dash_Video](https://github.com/user-attachments/assets/76303b56-8764-485e-8a66-98f830c58db9):** Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
+4. **[Customer_Dash_Video](https://github.com/user-attachments/assets/d7efc821-b67c-4141-a5bd-9da0212a974f):** Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
 
 ---
 
 ## Desarrollo Paso a Paso
 
 ### Fase 1: ETL y Preparación de Datos (Power Query)
-El punto de partida fueron múltiples archivos raw. El proceso de limpieza y perfilamiento garantizó la calidad de los datos antes de cargarlos al modelo:
+El punto de partida fueron múltiples archivos crudos. El proceso de limpieza y perfilamiento garantizó la calidad de los datos antes de cargarlos al modelo:
 * **Perfilamiento de datos:** Análisis de distribución, valores nulos y calidad general utilizando las herramientas de vista de columnas. Validación estricta de tipos de datos.
 * **Transformaciones y Columnas Calculadas:** Separación de strings por delimitadores, extracción de texto y uso de funciones matemáticas para derivar nuevos valores.
 * **Lógica Condicional:** Creación de columnas condicionales en M para categorizar rangos directamente desde la ingesta.
@@ -26,9 +26,9 @@ El punto de partida fueron múltiples archivos raw. El proceso de limpieza y per
 
 ### Fase 2: Arquitectura y Modelado Relacional
 Se diseñó una base de datos analítica estructurada para optimizar el rendimiento y asegurar la propagación correcta de los filtros:
-* **Star & Snowflake:** Organización de tablas de hechos (*Sales* y *Returns*) rodeadas por dimensiones descriptivas (*Customers*, *Products*, *Territories*).
-* **Integridad Relacional:** Identificación precisa de Claves Primarias (Primary Keys) y Foráneas (Foreign Keys).
-* **Flujo de Filtros:** Configuración de relaciones de **Uno a Muchos (1:*)** con dirección de filtro único (Single) desde las *Lookup Tables* hacia las *Fact Tables*, manteniendo la consistencia total de los datos al aplicar segmentaciones.
+* ***Star & Snowflake*:** Organización de tablas de hechos (*Sales* y *Returns*) rodeadas por dimensiones descriptivas (*Customers*, *Products*, *Territories*).
+* **Integridad Relacional:** Identificación precisa de Claves Primarias (*Primary Keys*) y Foráneas (*Foreign Keys*).
+* **Flujo de Filtros:** Configuración de relaciones de **Uno a Muchos (1:*)** con dirección de filtro único (*Single*) desde las *Lookup Tables* hacia las *Fact Tables*, manteniendo la consistencia total de los datos al aplicar segmentaciones.
   <img width="1741" height="683" alt="image" src="https://github.com/user-attachments/assets/8eec71fa-1638-42a7-8f9f-1d28dcce3f22" />
 
 
@@ -68,7 +68,7 @@ La capa de visualización se construyó priorizando el descubrimiento interactiv
 * **Jerarquías de Datos:** Implementación de matrices con *Drill-down* y *Drill-up* geográfico (Continente > País) y de productos (Categoría > Subcategoría > Nombre del Producto).
 * **Visual Calculations:** Uso de cálculos visuales directamente sobre matrices estructuradas para obtener insights contextuales rápidos sin sobrecargar el modelo DAX.
 * **Interactividad y Navegación:** Creación de un menú lateral con formas formateadas, botones con imágenes dinámicas y acciones de *Bookmarks* para transicionar entre páginas (Exec, Map, Product, Client).
-* **Diseño Condicional y KPIs:** Tarjetas de tendencia que comparan el cierre de mes vs el mes anterior, aplicando formato condicional (Negro/rojo) al color del número basándose en el porcentaje de crecimiento.
+* **Diseño Condicional y KPIs:** Tarjetas de tendencia que comparan el cierre de mes vs el mes anterior, aplicando formato condicional (Negro/Rojo) al color del número basándose en el porcentaje de crecimiento.
 * **Executive Dashboard**:
   <img width="1296" height="730" alt="image" src="https://github.com/user-attachments/assets/90f592f5-4aad-46f2-a062-1d5540c7d917" />
   
@@ -91,10 +91,12 @@ La capa de visualización se construyó priorizando el descubrimiento interactiv
 ### Fase 5: IA, Parámetros y Simulaciones "What-If"
 * **Escenarios Dinámicos (What-If):** Implementación de una perilla de incremento porcentual de precios. Al ajustar el parámetro, el motor DAX recalcula dinámicamente el `Adjusted Price`, `Adjusted Revenue` y el `Adjusted Profit`.
 * **Field Parameters (Parámetros de Campo):** Integración de un slicer con 5 métricas seleccionables por el usuario para dinamizar un gráfico de áreas de tendencias sin saturar el lienzo.
-* **Inteligencia Artificial:** * Entrenamiento del motor **Q&A** para habilitar consultas en lenguaje natural.
+* **Inteligencia Artificial:**
+  * Entrenamiento del motor **Q&A** para habilitar consultas en lenguaje natural.
   * Análisis automatizado de **Detección de Anomalías** sobre los gráficos de tendencia lineal.
   * Integración de un **Decomposition Tree** (Mapa Jerárquico) para realizar análisis de causa raíz multidimensional.
-  [Descomposition_Tree_Video](https://github.com/user-attachments/assets/a69a9a52-dffb-4cde-80b6-7c4245f46753)
+  [Decomposition_Tree_Video](https://github.com/user-attachments/assets/c230cb55-b61f-4543-a0f6-f8f29e16337e)
+
 
 ---
 
