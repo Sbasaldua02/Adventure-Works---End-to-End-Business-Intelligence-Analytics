@@ -8,11 +8,25 @@ Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure W
 
 ## Demos Interactivas del Tablero
 *En esta sección pueden observar demostraciones de las diferentes interacciones en el reporte:*
+1.
+**![Executive_Dash_Video](https://github.com/user-attachments/assets/6b2968bc-4f03-493c-a9c4-1eadb6921cd0)** 
 
-1. **![Executive_Dash_Video](https://github.com/user-attachments/assets/6b2968bc-4f03-493c-a9c4-1eadb6921cd0):** Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
-2. **![Product_Dash_Video](https://github.com/user-attachments/assets/7cc56da9-f756-4844-8366-1b5503106ce9):** Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
-3. **![Map_Dash_Video](https://github.com/user-attachments/assets/76303b56-8764-485e-8a66-98f830c58db9):** Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
-4. **![Customer_Dash_Video](https://github.com/user-attachments/assets/d7efc821-b67c-4141-a5bd-9da0212a974f):** Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
+Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
+
+2.
+**![Product_Dash_Video](https://github.com/user-attachments/assets/7cc56da9-f756-4844-8366-1b5503106ce9)**
+
+Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
+
+3.
+**![Map_Dash_Video](https://github.com/user-attachments/assets/76303b56-8764-485e-8a66-98f830c58db9)**
+
+Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
+
+4. 
+**![Customer_Dash_Video](https://github.com/user-attachments/assets/d7efc821-b67c-4141-a5bd-9da0212a974f)**
+
+Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
 
 ---
 
