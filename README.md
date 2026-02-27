@@ -1,4 +1,6 @@
-![Map_Dash_Video](https://github.com/user-attachments/assets/cbe56fe9-1e81-4e3e-926c-ef2d3e4ccc9b)# Adventure Works - End-to-End Business Intelligence Analytics
+# Adventure Works - End-to-End Business Intelligence Analytics
+[Product_Dash_Video](https://github.com/user-attachments/assets/7084c585-cebe-4ed4-a380-1fdb77da429b)
+
 
 ## Resumen del Proyecto
 Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure Works*, una empresa global de equipamiento deportivo ficticia. Este proyecto abarca el ciclo de vida completo de los datos: desde la extracción y limpieza profunda (ETL) de archivos `.csv` crudos, pasando por un modelado relacional complejo (Star/Snowflake) y cálculos DAX avanzados, hasta el diseño de una interfaz optimizada con herramientas de Inteligencia Artificial y diseño responsivo para dispositivos móviles.
