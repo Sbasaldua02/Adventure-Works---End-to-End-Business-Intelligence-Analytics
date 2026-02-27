@@ -1,5 +1,4 @@
 # Adventure Works - End-to-End Business Intelligence Analytics
-# [Product_Dash_Video](https://github.com/user-attachments/assets/7084c585-cebe-4ed4-a380-1fdb77da429b)
 
 
 ## Resumen del Proyecto
@@ -10,10 +9,10 @@ Desarrollo de un dashboard corporativo interactivo en Power BI para *Adventure W
 ## Demos Interactivas del Tablero
 *Hacé click en los enlaces a continuación para ver las grabaciones de la interacción real con el reporte:*
 
-1. **[Executive_Dash_Video](https://github.com/user-attachments/assets/6b2968bc-4f03-493c-a9c4-1eadb6921cd0):** Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
-2. **[Product_Dash_Video](https://github.com/user-attachments/assets/7cc56da9-f756-4844-8366-1b5503106ce9):** Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
-3. **[Map_Dash_Video](https://github.com/user-attachments/assets/76303b56-8764-485e-8a66-98f830c58db9):** Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
-4. **[Customer_Dash_Video](https://github.com/user-attachments/assets/d7efc821-b67c-4141-a5bd-9da0212a974f):** Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
+1. **![Executive_Dash_Video](https://github.com/user-attachments/assets/6b2968bc-4f03-493c-a9c4-1eadb6921cd0):** Navegación general, uso de slicers temporales y geográficos. Demostración de *Custom Tooltips* al pasar el cursor sobre los gráficos de barras y tendencias, y cross-filtering (edición de interacciones visuales) entre los distintos KPIs.
+2. **![Product_Dash_Video](https://github.com/user-attachments/assets/7cc56da9-f756-4844-8366-1b5503106ce9):** Viaje de datos (*Drill-through*) desde la matriz del Top 10 de productos hacia una vista de detalle a nivel producto. Interacción con parámetros *What-If* para simular escenarios de rentabilidad, y uso de parámetros de campo (Field Parameters) para alternar dinámicamente las métricas de un gráfico de áreas.
+3. **![Map_Dash_Video](https://github.com/user-attachments/assets/76303b56-8764-485e-8a66-98f830c58db9):** Navegación mediante botones y *Bookmarks* hacia el reporte geográfico. Exploración interactiva del mapa de burbujas filtrando por continentes y países.
+4. **![Customer_Dash_Video](https://github.com/user-attachments/assets/d7efc821-b67c-4141-a5bd-9da0212a974f):** Análisis demográfico interactivo, aplicación de filtros visuales a nivel de página y reporte, y funcionamiento de los botones de navegación globales.
 
 ---
 
@@ -97,7 +96,7 @@ La capa de visualización se construyó priorizando el descubrimiento interactiv
   * Entrenamiento del motor **Q&A** para habilitar consultas en lenguaje natural.
   * Análisis automatizado de **Detección de Anomalías** sobre los gráficos de tendencia lineal.
   * Integración de un **Decomposition Tree** (Mapa Jerárquico) para realizar análisis de causa raíz multidimensional.
-  [Decomposition_Tree_Video](https://github.com/user-attachments/assets/c230cb55-b61f-4543-a0f6-f8f29e16337e)
+  ![Decomposition_Tree_Video](https://github.com/user-attachments/assets/c230cb55-b61f-4543-a0f6-f8f29e16337e)
 
 
 ---
