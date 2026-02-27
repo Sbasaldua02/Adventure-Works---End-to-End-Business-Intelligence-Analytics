@@ -114,6 +114,12 @@ La capa de visualización se construyó priorizando el descubrimiento interactiv
   * Integración de un **Decomposition Tree** (Mapa Jerárquico) para realizar análisis de causa raíz multidimensional.
   ![Decomposition_Tree_Video](https://github.com/user-attachments/assets/c230cb55-b61f-4543-a0f6-f8f29e16337e)
 
+### Conlusión y aprendizaje:
+Como estudiante de Ciencia de Datos, ya venía bastante acostumbrado a manipular bases de datos con Python y SQL. Por eso, toda la primera etapa de limpieza, el ETL con Power Query y el armado del modelo relacional me resultaron bastante intuitivos y familiares.
+
+Lo que realmente me sorprendió de este proyecto fue todo lo que se puede hacer en la capa de visualización. Aprender a manejar DAX (sobre todo entender bien cómo funcionan los contextos de filtro y de fila) me pareció un desafío buenísimo. Además, descubrir herramientas como los parámetros What-If, los Custom Tooltips y los Bookmarks me hizo entender la diferencia entre hacer un gráfico estático suelto y armar un reporte verdaderamente interactivo.
+
+En resumen, me llevo una muy buena experiencia con Power BI. Me pareció una herramienta súper práctica para tener todo el proceso centralizado —desde el dato crudo hasta el tablero final— y es un conocimiento que me entusiasma sumar a mi perfil técnico para seguir creciendo.
 
 ---
 
